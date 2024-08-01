@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0.5rem 0 0;
+}
+
+header nav ul li {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+main {
+    padding: 0.5rem;
+}
+
+article {
+    background: #fff;
+    padding: 0.75rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+article h1 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+article .author {
+    font-size: 0.75rem;
+    color: #777;
+    margin-bottom: 0.75rem;
+}
+
+article .author span {
+    font-weight: 600;
+}
+
+article p {
+    margin-bottom: 0.75rem;
+}
+
+article h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+article ul {
+    list-style: disc;
+    padding-left: 1rem;
+}
+
+article ul li {
+    margin-bottom: 0.5rem;
+}
+
+.info {
+    margin-bottom: 1rem;
+}
+
+.info h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.info p {
+    margin-bottom: 0.75rem;
+}
+
+.info ol {
+    padding-left: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.info ol li {
+    margin-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 0.75rem;
+}
+
+table th {
+    background: #f9f9f9;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.newsletter form input,
+.newsletter form button {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+footer {
+    background: #fff;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 0.75rem;
+}
+
